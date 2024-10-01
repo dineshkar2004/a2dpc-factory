@@ -1,0 +1,12 @@
+body{
+    margin:0px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+.bar{
+    display: flex;
+    
+}
