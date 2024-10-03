@@ -5,6 +5,7 @@ body{
     display: flex;
     justify-content: space-between;
     background-color: black;
+    padding: 20px;
 }
 .bar{
     display: flex;
@@ -12,4 +13,16 @@ body{
 }
 .img{
     display: block;
+}
+.tag1{
+    background-color: rgba(255, 255, 255,0.7); 
+    border-radius: 30px;
+    padding: 10px;
+}
+.tag2{
+    background-color: rgba(255, 255, 255,0.7); 
+    border-radius: 30px;
+    padding: 5px;
+    height: 10px;
+    width: 100px;
 }
