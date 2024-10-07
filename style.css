@@ -1,28 +1,50 @@
 body{
     margin:0px;
 }
+a{
+    text-decoration: none;
+    color: white;
+}
 .navbar{
     display: flex;
     justify-content: space-between;
-    background-color: black;
+    background-image: url(images/background.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    height: 700px;
     padding: 20px;
 }
 .bar{
     display: flex;
+    margin-right: 10px;
     
 }
 .img{
     display: block;
 }
-.tag1{
-    background-color: rgba(255, 255, 255,0.7); 
-    border-radius: 30px;
+.atag{
     padding: 10px;
 }
+.itag{
+    height: 15px;
+    width: 15px;
+    padding:10px;
+    margin-top:3px ;
+    border-radius: 50%;
+    background-color: orange;
+}
+.tag1{
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 40px;
+}
 .tag2{
-    background-color: rgba(255, 255, 255,0.7); 
-    border-radius: 30px;
-    padding: 5px;
-    height: 10px;
-    width: 100px;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 40px;
 }
