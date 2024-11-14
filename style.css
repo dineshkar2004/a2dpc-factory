@@ -1,7 +1,9 @@
 body{
     margin:0px;
     font-family: 'ClashDisplay-Regular';
+    --black:color:black;
 }
+
 @font-face {
     font-family:'ClashDisplay-Regular' ;
     src: url(font/Fonts/ClashDisplay-Regular.otf)format(opentype);
@@ -81,7 +83,7 @@ a{
     justify-content:space-between;
     align-items:center;
     text-align:center;
-    width:80%;
+    /* width:80%; */
     height: 343px;
     margin: auto;
 }
@@ -101,6 +103,7 @@ a{
     font-family: 'ClashDisplay-Medium';
     font-size:54px;
     height: 160px;
+    padding: 20px;
 }
 #border{
     border:2px solid #ffd596;
@@ -109,6 +112,10 @@ a{
 .desc{
     color: white;
     font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 .buttons{
     display: flex;
@@ -211,9 +218,9 @@ a{
     color: black;
 }
 .work{
-    width: 240px;
-    margin: auto;
-    height: 80px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
     font-family: 'ClashDisplay-Medium';
     font-size: 34px;
 }
@@ -285,4 +292,178 @@ a{
 .pcimage1{
     display: flex;           
     justify-content: center; 
+}
+
+
+
+/* end of third part*/
+
+
+/* Start of fourth part or box 4 */
+
+.div1{
+    width: 40%;
+    margin: auto;
+    height: 57px;
+    background-color: #f7f7f7;
+    border-radius: 40px;
+    border: 1px solid grey;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.text3{
+    background-color: black ;
+    border-radius: 40px;
+    color: white;
+    padding: 10px;
+    width: 45%;
+    text-align: center;
+}
+.pc6{
+    background-color: #f7f7f7;
+    border-radius: 20px;
+    width: 47%;
+}
+label{
+    display: block;
+    font-family:'ClashDisplay-Regular';
+    color:rgba(107, 120, 136, 1);
+}
+select{
+    width: 500px;
+    padding: 5px;
+    font-family:'ClashDisplay-Regular';
+
+}
+
+.components{
+    background-color: #f7f7f7;
+    border-radius: 20px;
+    width: 47%;
+    
+
+}
+.grp3{
+    display: flex;
+    justify-content: space-around;
+}
+.grp4{
+    display: flex;
+    flex-direction: column;
+    height: 684px;
+    justify-content: space-around;
+    align-items:center;
+}
+.box4{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 1000px;
+}
+
+
+
+/* end of fourth part */
+
+
+/* start of testimonal */
+
+.mgpic{
+    display: flex;
+    justify-content: center;
+}
+.mgcon{
+    width:30%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    text-align:start;
+    color: white;
+    background-color: black;
+    border-radius:10px;
+    padding: 50PX;
+
+}
+.testmo{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    background-color: #f7f7f7;
+}
+.combine{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 2000px;
+}
+
+/* end of testimonal */
+
+/* start of footer */
+.footer{
+    background-color: black;
+}
+.input input{
+    padding: 10px;
+    width: 200px;
+}
+.type{
+    display: flex;
+    justify-content: space-between
+    
+}
+.total{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.in{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    height: 130px;
+}
+.in h4,ins{
+    color: white;
+    font-size: 14px;
+}
+.subscribe{
+    padding: 10px;
+    color: white;
+    border: 1px solid white;
+    display: inline-block;
+}
+.out{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+hr{
+    opacity: 0.6;
+}
+.end{
+    display: flex;
+    justify-content: flex-end;    
+
+}
+.end a{
+    padding: 15px;
+}
+
+/* end of footer */
+
+
+
+@media screen and (max-width:820px) {
+    .tag1,.tag2{
+        display:none;
+    }
+    .menu{
+        display: inline;
+        color: white;
+        padding: 5px;
+        background-color:rgba(62,106,225,0.3);
+    }
 }
