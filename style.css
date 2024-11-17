@@ -239,9 +239,6 @@ a{
 .ele1:hover{
     box-shadow: -1px 0 5px black, 0 1px 5px black, 1px 0 5px black, 0 -1px 5px black;
 }
-.ele1:hover{
-    background-color: rgb(236, 192, 112);
-}
 
 /* end of second part */
 
@@ -296,6 +293,9 @@ a{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+}
+.inner1:hover{
+    box-shadow: -1px 0 5px white, 0 1px 5px white, 1px 0 5px white, 0 -1px 5px white;
 }
 .title1{
     padding-left:10px;
