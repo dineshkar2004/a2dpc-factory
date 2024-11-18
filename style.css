@@ -527,10 +527,11 @@ hr{
 }
 
 
-@media  screen and (max-width:450px) {
+@media  screen and (max-width:500px) {
     .text1{
         font-size: 31px;
         text-align: center;
+        margin:5px;
     }
     .pc1{
         display: none;
@@ -540,6 +541,30 @@ hr{
     }
     .content{
         min-height: 400px;
+    }
+    .button1 a{
+        font-size: 10px;
+    }
+    .button1{
+        width:160px;
+        height:40px;
+        border-radius: 25px;
+    }
+    .button1 img{
+        width: 35px;
+        height: 35px;
+    }
+    .button2{
+        width:130px;
+        height: 40px;
+        border-radius: 25px;
+    }
+    .button2 a{
+        font-size: 10px;
+    }
+    .button2 img{
+        width:35px;
+        height: 35px;
     }
     .grp1{
         min-height: 1300px;
@@ -557,6 +582,7 @@ hr{
     .desc{
         font-size: 14px;
         text-align: center;
+        margin: 5px;
     }
     .firstpart{
         width:100%;
