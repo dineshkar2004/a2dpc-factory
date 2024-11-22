@@ -1,7 +1,7 @@
 body{
     margin:0px;
     font-family: 'ClashDisplay-Regular';
-    --black:color:black;
+    background-color: white;
 }
 @font-face {
     font-family: 'ClashDisplay-Bold';
