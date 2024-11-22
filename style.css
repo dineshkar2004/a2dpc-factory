@@ -3,7 +3,10 @@ body{
     font-family: 'ClashDisplay-Regular';
     --black:color:black;
 }
-
+@font-face {
+    font-family: 'ClashDisplay-Bold';
+    src: url(font/Fonts/ClashDisplay-Bold.otf)format(opentype);
+}
 @font-face {
     font-family:'ClashDisplay-Regular' ;
     src: url(font/Fonts/ClashDisplay-Regular.otf)format(opentype);
@@ -20,6 +23,12 @@ a{
     display: flex;
     justify-content:space-between;
     padding: 40px;
+}
+.textphone{
+    display: none;
+}
+.bar1{
+    display:none;
 }
 .firstpart{
     background-color: black;
@@ -524,10 +533,36 @@ hr{
     select{
         width: 200px;
     }
+    .bar1{
+        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .bar1 img{
+        height: 35px;
+        width: 35px;
+    }
+    .bar1:active .navbar{
+        display: block;
+    }
+    .textphone{
+        display:block;
+        font-family:'ClashDisplay-Regular';
+        font-size:15px;
+        color:goldenrod;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        letter-spacing: 2px;
+    }
 }
 
 
 @media  screen and (max-width:500px) {
+    .gradient{
+        background-image:url(images/backgroundphone.svg);
+    }
     .text1{
         font-size: 31px;
         text-align: center;
@@ -578,6 +613,30 @@ hr{
         width: 80%;
         margin: auto;
         height:400px;
+    }
+    .bar1{
+        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .bar1 img{
+        height: 35px;
+        width: 35px;
+    }
+    .bar1:active .navbar{
+        display: block;
+    }
+
+    .textphone{
+        display:block;
+        font-family:'ClashDisplay-Regular';
+        font-size:15px;
+        color:goldenrod;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        letter-spacing: 2px;
     }
     .desc{
         font-size: 14px;
